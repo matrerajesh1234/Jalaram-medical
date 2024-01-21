@@ -92,7 +92,7 @@
     color: #000000;
   }
 
-.Navlink-icons{
+.Navlink-icons>i{
     color:rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
     padding: 8px;
@@ -104,23 +104,19 @@
 }
 .Navlink-icons>.fa-cart-plus
 {
-    height: 25px;
-    width: 25px;
-    position: relative;
-    right: 3px;
-  font-size:20px ;
+    position: relative; 
+  font-size:19px ;
 
 }
 
-.Navlink-icons:hover {
+.Navlink-icons>i:hover {
     color:#ffffff;
-    background-color: black;
     transition: all 0.5s;
+    background-color: black;
 }
 
 .Navlink-icons.active{
     color:white;
-    background-color: black;
 }
 
 
