@@ -1,0 +1,105 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Poppins&family=Source+Sans+3:ital,wght@1,700&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Navbar{
+    display: flex;
+    height: 10vh;
+    width: 100vw;
+    background-color:rgb(17, 104, 244);
+    justify-content: space-between;
+
+}
+
+.logo{  
+    width: 20vw;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+}
+
+.logo >img
+{
+    height:70px;
+    width: 220px;
+}
+
+.hamburger>i{
+    color: #CCFB90;
+    font-size:30px;
+    display: none;
+    cursor: pointer;
+  }
+  
+
+.Navmenu{
+    width: 60vw;
+}
+
+.Navmenu ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    gap:50px;
+    font-size:18px; 
+}
+
+.Navmenu ul li{
+    list-style: none;
+    cursor: pointer;
+    font-weight: 550;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Navbar-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20vw;
+
+}
+
+
+.Navmenu ul li a{
+    text-decoration: none;
+    color :rgb(255, 255, 255);
+}
+.Navbar-right>.icons{
+    display: flex;
+    gap:30px;
+    font-size: 22px;
+    cursor: pointer;
+}
+.Navmenu ul li a.active {
+    color: #000000;
+  }
+
+.Navlink-icons{
+    color:white;
+}
+.Navlink-icons:hover {
+    color:#000000;
+}
+
+.Navlink-icons.active{
+    color:#AA8347;
+}
+
+
+
+.mobile-nav-icon{
+    display: none;
+}
+
+.close-outline{
+    display: none;
+}

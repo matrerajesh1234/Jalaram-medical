@@ -1,0 +1,63 @@
+/* Footer.css */
+
+/* Apply general styles to the entire footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  /* Style the content container within the footer */
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Style the information section */
+  .footer-info {
+    max-width: 400px;
+  }
+  
+  /* Style the links section */
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-links li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  /* Style the newsletter section */
+  .footer-newsletter {
+    max-width: 300px;
+  }
+  
+  .footer-newsletter input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  .footer-newsletter button {
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  /* Style the copyright section */
+  .footer-copyright {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
