@@ -69,7 +69,9 @@
     background-color: white;
     transform:translateX(100vw);
     transition: All 0.4s ease-in-out;
+    font-weight: bolder;
 }
+
 
 .Navmenu ul{
    display:flex;
@@ -80,7 +82,10 @@
 .Navmenu ul li a{
     color:black;
     font-size: 26px;
+
 }
+
+
 
 .Navbar-right{
     position: absolute;
@@ -106,12 +111,28 @@
 
 .Navlink-icons{
     color:rgb(0, 0, 0);
-   
-}   
+    background-color: rgb(255, 255, 255);
+    padding: 8px;
+    text-align: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
 
+}
+.Navlink-icons>.fa-cart-plus
+{
+    height: 25px;
+    width: 25px;
+    position: relative;
+    top: 4px;
+    left:0px;
+  font-size:20px ;
 
-.Navlink-icons.active{
-    color:#040403;
+}
+
+.Navlink-icons:hover {
+    color:#ffffff;
+    background-color: black;
 }
 
 
