@@ -1,8 +1,9 @@
 import React from 'react'
-import Navbar from './components/Navbar/Navbar'
 import Home from './Pages/Home/Home'
 import { Outlet } from 'react-router-dom'
-import Footer from './components/Footer/Footer'
+
+import Navbar from './components/Navbar/Navbar.jsx'
+import Footer from './components/Footer/Footer.jsx';
 
 
 
@@ -11,6 +12,8 @@ const App = () => {
     <>
     <Navbar/>
     <Outlet/>
+    {/* <Footer /> */}
+    
     </>
   )
 }

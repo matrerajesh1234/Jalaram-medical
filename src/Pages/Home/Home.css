@@ -1,0 +1,12 @@
+.Home {
+        height: 80vh;
+        width: 100vw;
+        overflow-y: hidden; /* Vertical scroll hone de */
+        overflow-x: hidden; /* Horizontal scroll ko hide karde */
+      }
+    
+
+.carousel-item > img{
+  height: 80vh;
+  width: 100vw;
+}

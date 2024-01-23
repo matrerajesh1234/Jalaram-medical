@@ -8,11 +8,16 @@
     padding: 0;
 }
 
+    
+body::-webkit-scrollbar{
+    display: none;
+  }
+
 .Navbar{
     display: flex;
     height: 10vh;
     width: 100vw;
-    background-color:#1168F4;
+    background-color:#0761f1;
     justify-content: space-between;
 
 }
@@ -26,7 +31,7 @@
 
 .logo >img
 {
-    height:70px;
+    height:10vh;
     width: 220px;
 }
 
@@ -51,6 +56,7 @@
     align-items: center;
     gap:50px;
     font-size:18px; 
+    margin: 0px;
 }
 
 .Navmenu ul li{
@@ -92,14 +98,17 @@
     color: #000000;
   }
 
+
 .Navlink-icons>i{
     color:rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
-    padding: 8px;
     text-align: center;
-    height: 20px;
-    width: 20px;
+    height: 30px;
+    width: 30px;
     border-radius: 50%;
+    font-size: 20px;
+    overflow: hidden;
+    padding:5px;
 
 }
 .Navlink-icons>.fa-cart-plus
