@@ -46,10 +46,10 @@ const Navbar = () => {
               <i className="fa-solid fa-user"></i>
             </NavLink>
             <NavLink to='/wishlist' className={`Navlink-icons ${isMobileMenuOpen ? 'active' : ''}`} onClick={closeMobileMenu}>
-            <i class="fa-sharp fa-solid fa-heart"></i>
+            <i className="fa-sharp fa-solid fa-heart"></i>
             </NavLink>
             <NavLink to='/cart' className={`Navlink-icons ${isMobileMenuOpen ? 'active' : ''}`} onClick={closeMobileMenu}>
-            <i class="fa-solid fa-cart-plus"></i>
+            <i className="fa-solid fa-cart-plus"></i>
             </NavLink>
           </div>
         </div>    
