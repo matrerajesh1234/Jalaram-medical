@@ -4,6 +4,7 @@
     overflow-x: hidden;
 }
 
+
 /* Mobile responsive */
 
 
@@ -13,7 +14,8 @@
  .Navbar{
     display: flex;
     height: 10vh;
-    width: 100%;
+    
+
     
  }
 
@@ -30,7 +32,6 @@
 }
 
 .Navmenu.active{
-    width: 100%;
     display: flex;
     position: absolute;
     top:10vh;
@@ -39,8 +40,9 @@
     flex-direction: column;
     z-index: 998;
     background-color: white;
-    transform:translateX(0);
+    transform:translateX(0vw);
     transition: All 0.4s ease-in-out;
+    display: inline-block;
 }
 
 .Navbar-right>.icons.active{
@@ -70,6 +72,8 @@
     transform:translateX(100vw);
     transition: All 0.4s ease-in-out;
     font-weight: bolder;
+    display: none;
+    
 }
 
 
@@ -135,28 +139,13 @@
 
 .hamburger>i{
     display: block;
-    padding: 17px;
+    padding: 20px;
     margin-right: 24px; 
     color:white;
 }
 
 
 /* // Home page Slider section  */
-
-.Home {
-    height: 90vh;
-    width: 100vw;
-    overflow-y: hidden; /* Vertical scroll hone de */
-    overflow-x: hidden; /* Horizontal scroll ko hide karde */
-  }
-
-
-.carousel-item > img{
-height: 90vh;
-width: 100vw;
-}
-
-
 
 
 
