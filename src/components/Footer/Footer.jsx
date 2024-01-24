@@ -3,41 +3,122 @@ import './Footer.css'
 
 const Footer = () => {
   return (
-    <>
-    <div className="Footer">
-      <div className="Footer1 Store-location">
-        <div className="f1-i">
-        <i class="fa-solid fa-store"></i>
-        </div>
-        <div className="f1-info">
-          <h3>Store Location</h3>
-          <h5>Jalaram medical , Near Hariom Apparment Gota</h5>
-        </div>
+    
+    <footer>
+      <div className="footer-content">
+      <div className="footer-web-logo">
+        <img src="/Images/jalaram logo.png" alt="Footer Web Logo" id="footer-web-logo" />
       </div>
-      <div className="Footer2 call-us-free">
-      <i class="fa-solid fa-headset"></i>
-      <div className="f2-info">
-          <h3>Call Us Free</h3>
-          <h5>000-000-000</h5>
-        </div>
+      <div className="footer-column">
+        For I will come to the smallest detail, who should practice any kind of
+        work except that some benefit from it results from our practice.
       </div>
-      <div className="Footer3 Email">
-      <i class="fa-solid fa-headset"></i>
-      <div className="f2-info">
-          <h3>Email</h3>
-          <h5>000-000-000</h5>
-        </div>
-        
+      <div className="footer-column">
+        <h4>Our Help Line:</h4>
+        <a>0020 500 -98- 000</a>
       </div>
-      <div className="Footer4 Join-Us-On">
-      <i class="fa-solid fa-headset"></i>
-      <div className="f2-info">
-          <h3>Join-Us-On-Social-Media</h3>
-          <h5>000-000-000</h5>
-        </div>
+      <div className="footer-column">
+        <h4>
+          Monday - Friday: 9:00 - 20:00
+          <br />
+          <br />
+          Saturday: 11:00 - 15:00
+          <br />
+          <br />
+          demo@jalarammedical.com
+        </h4>
       </div>
     </div>
-    </>
+    <div className="footer-content-2">
+      <div className="footer-column-2">
+        <h4>Information</h4>
+        <hr />
+        <br />
+        <ul>
+          <li>
+            <a href="#">Delivery</a>
+          </li>
+          <li>
+            <a href="#">About Us</a>
+          </li>
+          <li>
+            <a href="#">Secure Payment</a>
+          </li>
+          <li>
+            <a href="#">Contact Us</a>
+          </li>
+          <li>
+            <a href="#">Sitemap</a>
+          </li>
+          <li>
+            <a href="#">Stores</a>
+          </li>
+        </ul>
+      </div>
+      <div className="footer-column-2">
+        <h4>Custom Links</h4>
+        <hr />
+        <br />
+        <ul>
+          <li>
+            <a href="#">Legal Notice</a>
+          </li>
+          <li>
+            <a href="#">Prices Drop</a>
+          </li>
+          <li>
+            <a href="#">New Products</a>
+          </li>
+          <li>
+            <a href="#">Best Sales</a>
+          </li>
+          <li>
+            <a href="#">Login</a>
+          </li>
+          <li>
+            <a href="#">My Account</a>
+          </li>
+        </ul>
+      </div>
+      <div className="footer-column-2" id="footer-column-2">
+        <h4>Newsletter</h4>
+        <hr />
+        <br />
+        <ul>
+          <li>
+            You may unsubscribe at any moment. For that purpose, please find our
+            contact.
+          </li>
+        </ul>
+        <form action="">
+          <div className="footer-email">
+            <input
+              type="email"
+              name="email"
+              id="f-email"
+              placeholder="Enter your mail"
+              data-name="email"
+              aria-invalid="false"
+              aria-required="true"
+            />
+          </div>
+          <div className="footer-email-submit">
+            <button
+              type="submit"
+              className="footer-email-submit-button"
+              target="email"
+            >
+              Submit Now
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div className="footer-bottom">
+      © 2024 Jalaram Medical. All rights reserved.
+    </div>
+  </footer>
+  
   )
 }
 
