@@ -144,8 +144,16 @@ body::-webkit-scrollbar{
 
 /* // Home page Slider section  */
 
+.Slider{
+    height: 80vh;
+}
 
-
+.carousel-inner{
+    height: 70vh;
+    width: 95vw;
+    border-radius: 10px;
+  
+  }
 
 
 
@@ -167,13 +175,14 @@ body::-webkit-scrollbar{
 @media only screen and (min-width: 600px) and (max-width: 959px) {
    
 .logo{
-    width: 30vw;
+    width: 35vw;
     height: 10vh;
 }
 
 .logo >img
-{
-    height:60px;
+{   
+    padding-top:20px;
+    height:80px;
     width:180px;
 }
 
@@ -181,19 +190,21 @@ body::-webkit-scrollbar{
 
 
 .Navmenu{
-    width: 50vw;
+    width: 60vw;
 }
 
 .Navmenu ul{
-    gap:20px;
-    font-size:15px; 
+    gap:10px;
+    font-size:12px; 
+    padding:0px;
+
 }
 
 
 .Navbar-right>.icons{
     display: flex;
-    gap:20px;
-    font-size: 16px;
+    gap:10px;
+    font-size: 14px;
     cursor: pointer;
 }
 
