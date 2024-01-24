@@ -145,12 +145,12 @@ body::-webkit-scrollbar{
 /* // Home page Slider section  */
 
 .Slider{
-    height: 80vh;
+    height: 75vh;
 }
 
 .carousel-inner{
     height: 70vh;
-    width: 95vw;
+    width: 90vw;
     border-radius: 10px;
   
   }
