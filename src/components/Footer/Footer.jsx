@@ -14,15 +14,15 @@ const Footer = () => {
         work except that some benefit from it results from our practice.
       </div>
       <div className="footer-column">
-        <h4>Our Help Line:</h4>
-        <a>0020 500 -98- 000</a>
+        <h4>Contact Us :</h4>
+        <a>9898989075</a>
       </div>
       <div className="footer-column">
         <h4>
-          Monday - Friday: 9:00 - 20:00
+        Business Hours :
           <br />
           <br />
-          Saturday: 11:00 - 15:00
+          Mon-Sun: 9:30 AM - 1:00 PM, 4:00 - 11:00 PM
           <br />
           <br />
           demo@jalarammedical.com

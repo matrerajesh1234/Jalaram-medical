@@ -14,7 +14,7 @@ const Home = () => {
               <img src="/Images/Slider/Slider1.jpg" className="d-block w-100" alt="..." />
             </div>
             <div className="carousel-item">
-              <img src="/Images/Slider/Slider2.jpg" className="d-block w-100" alt="..." />
+              <img src="/Images/Slider/Watch.jpg" className="d-block w-100" alt="..." />
             </div>
             <div className="carousel-item">
               <img src="/Images/Slider/Slider4.jpg" className="d-block w-100" alt="..." />
