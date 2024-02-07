@@ -26,7 +26,7 @@ const Navbar = () => {
     <div className={`Navbar ${isMobileMenuOpen ? 'active' : ''}`}>
       <NavLink to='/'>
         <div className="logo">
-            <img src="/Images/jalaram logo.png" alt="" />
+            <img src="/Images/jalaram.png" alt="" />
         </div>
         </NavLink>
         <div className="hamburger" onClick={toggleMobileMenu}>

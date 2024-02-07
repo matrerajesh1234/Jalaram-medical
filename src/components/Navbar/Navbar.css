@@ -21,7 +21,7 @@ body::-webkit-scrollbar{
     display: flex;
     height: 10vh;
     width: 100vw;
-    background-color:#0761f1;
+    background-color:rgba(0, 0, 255, 0.861);
     justify-content: space-between;
     
 }
@@ -31,12 +31,13 @@ body::-webkit-scrollbar{
     align-content: center;
     display: flex;
     justify-content: center;
+    padding-left:50px;
 }
 
 .logo >img
 {
     height:10vh;
-    width: 220px;
+    width: 250px;
 }
 
 .hamburger>i{
@@ -67,7 +68,7 @@ body::-webkit-scrollbar{
     list-style: none;
     cursor: pointer;
     font-weight: 550;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .Navbar-right{
@@ -99,7 +100,9 @@ body::-webkit-scrollbar{
     cursor: pointer;
 }
 .Navmenu ul li a.active {
-    color: #000000;
+    color: #00fa04;
+    font-weight: 400;
+    text-shadow: black;
   }
 
 
