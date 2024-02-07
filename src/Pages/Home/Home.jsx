@@ -83,42 +83,42 @@ const Home = () => {
             <div className="band item-Injection" >
             <img src="/Images/Categories/Equipmente.png" alt="" />
             </div>
-            <h6>Sergical Mask</h6>
+            <h6>Equipment</h6>
           </div>
 
           <div className="item1">
             <div className="band item-image" >
               <img src="/Images/Categories/SafeGuard.png" alt="" />
             </div>
-            <h6>Sergical Mask</h6>
+            <h6>Safety Guard</h6>
           </div>
 
           <div className="item1">
             <div className="band item-image" >
               <img src="/Images/Categories/Tablet.png" alt="" />
             </div>
-            <h6>Sergical Mask</h6>
+            <h6>Pharmacy</h6>
           </div>
 
           <div className="item1">
             <div className="band item-image" >
               <img src="/Images/Categories/HandGloves.png" alt="" />
             </div>
-            <h6>Sergical Mask</h6>
+            <h6>Hand Gloves</h6>
           </div>
 
           <div className="item1">
             <div className="band item-image" >
               <img src="/Images/Categories/medkits.png" alt="" />
             </div>
-            <h6>Sergical Mask</h6>
+            <h6>MedKits</h6>
           </div>
 
           <div className="item1">
             <div className="band item-image" >
               <img src="/Images/Categories/Senitiezier.png" alt="" />
             </div>
-            <h6>Sergical Mask</h6>
+            <h6>Hand Senitizare</h6>
           </div>
 
         </div>
