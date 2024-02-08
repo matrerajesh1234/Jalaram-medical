@@ -7,8 +7,7 @@ import Contact from './Pages/Contact/Contact.jsx';
 import Singleproduct from './Pages/SingleProduct/Singleproduct.jsx';
 import Products from './Pages/Products/Products.jsx';
 import Cart from './Pages/Cart/Cart.jsx';
-
-
+import Error from './Pages/Error/Error.jsx';
 
 
 import {
@@ -28,6 +27,10 @@ const router = createBrowserRouter(
       <Route path="products" element={<Products />} />
       <Route path="singleproduct/:id" element={<Singleproduct/>}/>
       <Route path="cart" element={<Cart/>}/>
+      <Route path='*' element={<Error/>}/>
+
+      
+
       
     </Route>
   )

@@ -1,0 +1,29 @@
+.error{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    padding:80px 200px;
+    gap:150px;
+    background-color: rgb(255, 255, 255);
+}
+
+.section1{
+    width: 50vw;
+    padding:100px 0px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.section1 >a >  button{
+    background-color: blue;
+    color: white;
+    padding:10px 50px;
+}
+
+
+.section2{
+    width: 50vw;
+    height: 100%;
+    
+}
