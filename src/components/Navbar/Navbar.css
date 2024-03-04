@@ -17,12 +17,19 @@ body::-webkit-scrollbar{
     overflow-x: hidden;
   }
 
+.Header{
+    position: sticky;
+    top:0px;
+    z-index: 1000;
+}
+
 .Navbar{
     display: flex;
     height: 10vh;
     width: 100vw;
     background-color:rgba(0, 0, 255, 0.861);
     justify-content: space-between;
+   
     
 }
 

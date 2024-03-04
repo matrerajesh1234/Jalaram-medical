@@ -1,6 +1,6 @@
 import React from 'react'
 import './Footer.css'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -75,7 +75,7 @@ const Footer = () => {
             <a href="#">Best Sales</a>
           </li>
           <li>
-            <a href="#">Login</a>
+            <NavLink to="login">Login</NavLink>
           </li>
           <li>
             <a href="#">My Account</a>
